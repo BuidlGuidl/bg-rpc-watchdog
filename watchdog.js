@@ -11,9 +11,14 @@ const checkInterval = 5 * 60 * 1000; // 5 minutes in milliseconds
 
 // Watchdog endpoints to monitor
 const endpoints = [
+  // {
+  //   name: 'stage.mainnet.rpc.buidlguidl.com (pre-proxy)',
+  //   url: `https://stage.mainnet.rpc.buidlguidl.com/watchdog`,
+  //   timeout: 10000 // 10 seconds
+  // },
   {
-    name: 'stage.mainnet.rpc.buidlguidl.com (pre-proxy)',
-    url: `https://stage.mainnet.rpc.buidlguidl.com/watchdog`,
+    name: 'mainnet.rpc.buidlguidl.com (pre-proxy)',
+    url: `https://mainnet.rpc.buidlguidl.com/watchdog`,
     timeout: 10000 // 10 seconds
   },
   {
